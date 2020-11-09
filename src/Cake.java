@@ -8,7 +8,7 @@ public class Cake {
 	
 	public void takeABite() {
 		--bites;
-		System.out.println("Hmm.. this is tasty!");
+		System.out.println("Hmm.. this is tasty! " + bites + " bites left!");
 	}
 	
 	public boolean isEmpty() {
